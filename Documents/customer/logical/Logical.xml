@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="64763562-04A6-1955-F5CE-6DF4220CC58A" mainViewID="2F2C8E96-FF07-C1BD-77EE-6525033EF04C">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:31:11 UTC</createdTime>
+<ownerDesignName>customer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

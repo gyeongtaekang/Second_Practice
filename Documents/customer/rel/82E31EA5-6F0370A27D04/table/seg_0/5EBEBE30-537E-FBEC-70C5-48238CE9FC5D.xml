@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EBEBE30-537E-FBEC-70C5-48238CE9FC5D" name="회원정보">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:25 UTC</createdTime>
+<generatorID>3F4EE676-B0AC-D620-6C9A-98F21BB76662</generatorID>
+<ownerDesignName>customer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="회원정보_ID" id="16721E99-F96F-6FBF-1D33-378A940585CC">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:45 UTC</createdTime>
+<ownerDesignName>customer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="이름" id="CE90DAF7-D8C9-3E06-29DD-AA988AA56EC3">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:25 UTC</createdTime>
+<generatorID>DC02E59A-6778-D818-789C-B64E68C0DA8E</generatorID>
+<ownerDesignName>customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주소" id="F4B374F6-739E-735E-6D26-34B85FCC03B8">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:25 UTC</createdTime>
+<generatorID>465AEFD7-4156-57F5-E8D5-9EC7F97E396D</generatorID>
+<ownerDesignName>customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="연락처" id="4C4C2D99-6C74-6416-5FDF-578086CCB06D">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:25 UTC</createdTime>
+<generatorID>A3C1F9E3-D162-9154-1A13-F10505D5C200</generatorID>
+<ownerDesignName>customer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7E870DD-0D4E-F78F-CC81-ABA2279F7EBE" name="회원정보_PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-05-16 01:41:45 UTC</createdTime>
+<ownerDesignName>customer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="16721E99-F96F-6FBF-1D33-378A940585CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

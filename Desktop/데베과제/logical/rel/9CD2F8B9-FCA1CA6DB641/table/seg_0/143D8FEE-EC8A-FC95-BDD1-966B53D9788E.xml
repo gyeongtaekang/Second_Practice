@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="143D8FEE-EC8A-FC95-BDD1-966B53D9788E" name="Post">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>7D053BE8-C9FC-F78C-76A4-0857214E6B1D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PostID" id="50ECF7D4-1430-90CD-5936-A0A8A76C2C19">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>E8DBBBEF-FB6F-DACE-DBA3-F8D7792E0B32</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserID" id="BD750FDD-6DBC-40BC-BB6E-A61B6EBB3F2A">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>B269B1B7-7AC7-9683-1DC6-18776CBE7888</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Content" id="F8B26EB0-FB65-657E-A016-154D8E7B2BE1">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>15F25D44-CA6F-1FB1-A6FD-0DEEE05BCF97</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImageURL" id="CC44D2B3-4028-C2F6-CD47-80E22D382051">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>8003262B-DE5A-184F-3A91-AE51CDBAF838</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostDate" id="389DA495-E10F-1484-BCCB-E5713EB960A4">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>F741E254-C635-AC25-73FF-09F66A8F8B3D</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_ID" id="29FD457B-F003-61C5-AE17-026E02A6B542">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>0E96D353-4AEF-24EB-7AA8-1E1A44FAB3B0</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58E420C3-CB09-5678-86C3-605E6FDEA081" referredColumn="F363CEE7-F3CC-D52E-AE4D-E6A9D243C88F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80AFEFCA-9EF6-783B-2D5D-D1CDACA6F937" name="Post_PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>3F1740D7-4217-E41C-B159-4F8906D70474</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50ECF7D4-1430-90CD-5936-A0A8A76C2C19"/>
+<colUsage columnID="BD750FDD-6DBC-40BC-BB6E-A61B6EBB3F2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3A7DFCC-DC9A-6150-8887-F463E6CA8A2C" name="Post_User_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>600945D1-6C7C-0C31-5A0B-76DBF775E32A</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29FD457B-F003-61C5-AE17-026E02A6B542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

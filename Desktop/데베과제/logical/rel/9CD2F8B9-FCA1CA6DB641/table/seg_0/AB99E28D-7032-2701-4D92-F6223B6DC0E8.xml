@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB99E28D-7032-2701-4D92-F6223B6DC0E8" name="Relation_express">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<ordsAlias>relation_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_User_ID" id="6E36EA74-BFAA-761F-594C-2DDB03C3336E">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F59AC1EE-CD28-720D-095D-1D3EDEC87DFA" referredColumn="F363CEE7-F3CC-D52E-AE4D-E6A9D243C88F"/>
+</associations>
+</Column>
+<Column name="friend_relation_user_ID1" id="3F263211-6094-669D-3440-1D5E6994A782">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF68D700-99A1-7A09-D458-C9188711F8E8" referredColumn="AC7172AF-1E49-355B-CB1A-C6C915F5CCBE"/>
+</associations>
+</Column>
+<Column name="friend_relation_user_ID2" id="9315FFF4-DA3A-8E25-DEB5-80C150C9C59A">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF68D700-99A1-7A09-D458-C9188711F8E8" referredColumn="589BBBED-547E-C554-40E0-7A0909DCF56D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="065E9EC7-EBE2-2054-30BD-6785AD197187" name="Relation_express_PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E36EA74-BFAA-761F-594C-2DDB03C3336E"/>
+<colUsage columnID="3F263211-6094-669D-3440-1D5E6994A782"/>
+<colUsage columnID="9315FFF4-DA3A-8E25-DEB5-80C150C9C59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD6EE5BD-A7A2-3C91-2009-80E5D1D1733C" name="Relation_express_user_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>B36F502F-0CF5-F0BC-EC90-61CA394441AE</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E36EA74-BFAA-761F-594C-2DDB03C3336E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F296C048-441D-826A-FA81-B76F61D0A031" name="Relation_express_friend_relation_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>B36F502F-0CF5-F0BC-EC90-61CA394441AE</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F263211-6094-669D-3440-1D5E6994A782"/>
+<colUsage columnID="9315FFF4-DA3A-8E25-DEB5-80C150C9C59A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

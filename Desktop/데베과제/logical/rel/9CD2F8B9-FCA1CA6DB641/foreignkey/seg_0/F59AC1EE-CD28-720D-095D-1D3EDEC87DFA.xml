@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F59AC1EE-CD28-720D-095D-1D3EDEC87DFA" containerWithKeyObject="AB99E28D-7032-2701-4D92-F6223B6DC0E8" localFKIndex="CD6EE5BD-A7A2-3C91-2009-80E5D1D1733C" name="Relation_express_user_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>B36F502F-0CF5-F0BC-EC90-61CA394441AE</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0903C454-74B3-49D8-C131-0DE7D8662597</referredTableID>
+<keyObject>18EF8722-9AF1-EE03-818A-BEDF5AA208EF</keyObject>
+<referredKeyID>18EF8722-9AF1-EE03-818A-BEDF5AA208EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UserID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

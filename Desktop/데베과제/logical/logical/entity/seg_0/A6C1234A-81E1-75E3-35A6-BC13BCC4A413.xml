@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6C1234A-81E1-75E3-35A6-BC13BCC4A413" name="스토리">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:16 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="스토리 ID" id="2D389577-1E53-7D92-D34F-1425876CAF48">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:35 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="사용자 ID" id="55D24A85-C8C7-50D5-AB8C-1F944F45D144">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:44 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="내용" id="FFAB1476-5CA7-D6C8-C244-3CDC61DF8877">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:51 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="이미지 URL" id="E5EA839F-8ABB-2459-D32C-2E1470D77569">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:59 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="게시 날짜" id="BF79EE71-59FF-986C-D9F4-9D07A5C99A81">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:43:06 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="사용자 ID1" id="CEA9F6EA-8D69-95D1-5A29-D31D3DED9E68">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:43:13 UTC</createdTime>
+<generatorID>A44707A9-82CD-36BC-0C45-616CEE95A40C</generatorID>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<referedAttribute>0A65781F-1117-0AFE-A8A7-818A644DC822</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A654EC3-D7D5-53C7-BCFC-814C16CD6FAF" name="스토리 PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:42:36 UTC</createdTime>
+<ownerDesignName>logical</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D389577-1E53-7D92-D34F-1425876CAF48</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

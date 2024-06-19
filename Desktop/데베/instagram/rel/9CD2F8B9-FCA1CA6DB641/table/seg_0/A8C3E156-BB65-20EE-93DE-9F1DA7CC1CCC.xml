@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8C3E156-BB65-20EE-93DE-9F1DA7CC1CCC" name="Story">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>A6C1234A-81E1-75E3-35A6-BC13BCC4A413</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StoryID" id="10EFC94A-C0A2-0D5B-E759-568B74D363A8">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>2D389577-1E53-7D92-D34F-1425876CAF48</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserID" id="A2C50607-AA67-C4A6-056F-F05C0C918310">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>55D24A85-C8C7-50D5-AB8C-1F944F45D144</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Content" id="B1C5D85A-0144-6979-502E-2BF90F3F55E7">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>FFAB1476-5CA7-D6C8-C244-3CDC61DF8877</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImageURL" id="596145DA-0892-1E8E-17D6-DC49A470421B">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>E5EA839F-8ABB-2459-D32C-2E1470D77569</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StoryDate" id="FC60F979-C544-BC6C-C6F2-0D1CD7B93DC7">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>BF79EE71-59FF-986C-D9F4-9D07A5C99A81</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_ID" id="53825A19-7338-5B83-8679-0070B030DA43">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>CEA9F6EA-8D69-95D1-5A29-D31D3DED9E68</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F34F18A-BD41-63D1-5C7D-28DDC1D2B782" referredColumn="F363CEE7-F3CC-D52E-AE4D-E6A9D243C88F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D019A89F-EE9B-DF03-D956-53805B019AFE" name="Story_PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>2A654EC3-D7D5-53C7-BCFC-814C16CD6FAF</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10EFC94A-C0A2-0D5B-E759-568B74D363A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD25517-3AEE-DC84-87C9-2B065889CCE7" name="Story_User_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>A44707A9-82CD-36BC-0C45-616CEE95A40C</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53825A19-7338-5B83-8679-0070B030DA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

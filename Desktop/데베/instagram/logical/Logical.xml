@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ECC3E562-F1C1-8CC0-138F-389891E7A108" mainViewID="82F84FDA-14D0-1F51-800F-EF34E5D8E749">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 14:59:21 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A6F41C5-4799-6821-B4FC-930D67F99CFB" name="사용자">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:14:48 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="사용자 ID" id="0A65781F-1117-0AFE-A8A7-818A644DC822">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:17:45 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="이름" id="E0CE0DB3-5B7E-9067-266C-5540D0386785">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:18:41 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="이메일" id="A72B74F5-0125-F3E1-7AB2-832489CDF9FD">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:18:52 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="비밀번호" id="53D86052-2BED-3DFC-AD21-C529E6D53CC5">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:19:01 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="팔로우 ID" id="9BDE9779-6922-056F-FEB4-5CCFF4222BBA">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:43:44 UTC</createdTime>
+<generatorID>BD4A5FEA-4CB7-2362-97E5-F71DABEA7D82</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<referedAttribute>AA8C1308-2716-4EBE-DD0B-0D9C3B2E3257</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="팔로워 ID" id="275E1C5E-2CC3-B1CF-5897-3EDD062F9B54">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:43:44 UTC</createdTime>
+<generatorID>BD4A5FEA-4CB7-2362-97E5-F71DABEA7D82</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<referedAttribute>55A645E7-52C3-B90D-AA1C-AD7FAEC5D085</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42331185-45BE-1821-14F7-598EA0B803E2" name="사용자 PK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-17 15:18:25 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A65781F-1117-0AFE-A8A7-818A644DC822</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

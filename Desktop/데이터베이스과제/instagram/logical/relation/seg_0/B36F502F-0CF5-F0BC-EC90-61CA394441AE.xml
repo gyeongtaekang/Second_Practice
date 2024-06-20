@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="B36F502F-0CF5-F0BC-EC90-61CA394441AE">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:41:30 UTC</createdTime>
+<ownerDesignName>instagram</ownerDesignName>
+<engineerTo>
+<item key="9CD2F8B9-34F6-BB32-30FB-FCA1CA6DB641" value="true"/>
+</engineerTo>
+<sourcePk>42331185-45BE-1821-14F7-598EA0B803E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0A6F41C5-4799-6821-B4FC-930D67F99CFB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1908107-8296-B383-084D-CAAD997B4880</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

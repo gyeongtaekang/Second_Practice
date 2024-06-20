@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDA6F15D-E3AA-F6E6-4014-D35CA01BA663" containerWithKeyObject="0903C454-74B3-49D8-C131-0DE7D8662597" localFKIndex="CA511494-BBFA-6478-4987-C462C70E0776" name="user_follow_FK">
+<createdBy>AERO</createdBy>
+<createdTime>2024-06-18 10:59:02 UTC</createdTime>
+<generatorID>BD4A5FEA-4CB7-2362-97E5-F71DABEA7D82</generatorID>
+<ownerDesignName>instagram</ownerDesignName>
+<referredTableLongName>Follow</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A90F418-DC6F-530D-4D8C-0C1177991C79</referredTableID>
+<keyObject>EAC3AF9F-470A-E87C-A8AA-89A865892C6A</keyObject>
+<referredKeyID>EAC3AF9F-470A-E87C-A8AA-89A865892C6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FollowID,FollowerID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
